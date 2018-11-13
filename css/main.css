@@ -9,11 +9,11 @@ html {
 
 .skip-links a:focus {
   top: 0;
-  border-color: pink;
+  border-color: red;
 }
 
 input:focus {
-  background-color: pink;
+  background-color: red;
 }
 
 .section-dark {
@@ -82,8 +82,8 @@ input:focus {
 }
 
 a:focus {
-  color: pink;
-  border-color: pink;
+  color: red;
+  border-color: red;
 }
 
 .satellites {
