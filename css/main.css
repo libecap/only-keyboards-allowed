@@ -16,6 +16,17 @@ input:focus {
   background-color: red;
 }
 
+a:focus {
+  outline: 6px solid #ff69b4;
+}
+
+#nav:focus,
+#main:focus,
+#satellites:focus,
+#techniques:focus {
+  outline: 6px solid #ff69b4;
+}
+
 .section-dark {
   background-color: #000308;
   color: #fff;
@@ -79,11 +90,6 @@ input:focus {
 
 .techniques {
   background-image: url("../images/galaxies-in-hiding.jpg");
-}
-
-a:focus {
-  color: red;
-  border-color: red;
 }
 
 .satellites {
